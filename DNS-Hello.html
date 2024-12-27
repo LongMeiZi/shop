@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>DNS服务提供商对比</title>
+		<style>
+			table {
+				width: 100%;
+				border-collapse: collapse;
+			}
+
+			th,
+			td {
+				padding: 10px;
+				border: 1px solid #ddd;
+				text-align: left;
+			}
+
+			th {
+				background-color: #f2f2f2;
+			}
+		</style>
+	</head>
+	<body>
+
+		<h2>DNS服务提供商性能特点对比</h2>
+		<table>
+			<tr>
+				<th>服务提供商</th>
+				<th>类别</th>
+				<th>功能特点</th>
+				<th>DoH（DNS over HTTPS）链接</th>
+			</tr>
+			<!-- 全球知名DNS服务 -->
+			<tr>
+				<td>Cloudflare</td>
+				<td>全球</td>
+				<td>高性能、隐私保护</td>
+				<td><a href="https://chrome.cloudflare-dns.com/dns-query" target="_blank">1.1.1.1</a></td>
+			</tr>
+			<tr>
+				<td>OpenDNS</td>
+				<td>全球</td>
+				<td>家庭安全过滤、企业级保护</td>
+				<td><a href="https://doh.opendns.com/dns-query?dns" target="_blank">OpenDNS</a></td>
+			</tr>
+			<tr>
+				<td>Google Public DNS</td>
+				<td>全球</td>
+				<td>稳定性、全球覆盖</td>
+				<td><a href="https://dns.google/dns-query?dns" target="_blank">Google DNS</a></td>
+			</tr>
+			<tr>
+				<td>Quad9</td>
+				<td>全球</td>
+				<td>隐私保护，恶意软件拦截</td>
+				<td><a href="https://dns.quad9.net/dns-query" target="_blank">Quad9</a></td>
+			</tr>
+			<tr>
+				<td>NextDNS</td>
+				<td>全球</td>
+				<td>可自定义过滤规则、跟踪防护</td>
+				<td><a href="https://dns.nextdns.io/dns-query" target="_blank">NextDNS</a></td>
+			</tr>
+			<tr>
+				<td>AdGuard DNS</td>
+				<td>全球</td>
+				<td>广告拦截、隐私保护</td>
+				<td><a href="https://dns.adguard.com/dns-query" target="_blank">AdGuard</a></td>
+			</tr>
+
+			<!-- 中国大陆 DNS服务 -->
+			<tr>
+				<td>阿里云DNS</td>
+				<td>中国大陆</td>
+				<td>稳定、高性能</td>
+				<td><a href="https://dns.alidns.com/dns-query" target="_blank">阿里云DNS</a></td>
+			</tr>
+			<tr>
+				<td>腾讯DNSPod</td>
+				<td>中国大陆</td>
+				<td>快速解析、安全性</td>
+				<td><a href="https://doh.pub/dns-query" target="_blank">DNSPod</a></td>
+			</tr>
+			<tr>
+				<td>百度公共DNS</td>
+				<td>中国大陆</td>
+				<td>高性能、隐私保护</td>
+				<td><a href="https://doh.bdydns.com/dns-query" target="_blank">百度DNS</a></td>
+			</tr>
+			<tr>
+				<td>抖音DNS</td>
+				<td>中国大陆</td>
+				<td>安全、内容过滤</td>
+				<td><a href="https://doh.douyin.com/dns-query" target="_blank">抖音DNS</a></td>
+			</tr>
+
+			<!-- 亚洲其他地区 DNS服务 -->
+			<tr>
+				<td>MyRepublic DNS</td>
+				<td>新加坡</td>
+				<td>稳定、适合本地用户</td>
+				<td><a href="https://doh.myrepublic.com/dns-query" target="_blank">MyRepublic DNS</a></td>
+			</tr>
+			<tr>
+				<td>IIJ DNS</td>
+				<td>日本</td>
+				<td>稳定、覆盖日本</td>
+				<td><a href="https://doh.iij.ad.jp/dns-query" target="_blank">IIJ DNS</a></td>
+			</tr>
+			<tr>
+				<td>KRNIC DNS</td>
+				<td>韩国</td>
+				<td>适合本地用户</td>
+				<td><a href="https://doh.krnic.net/dns-query" target="_blank">KRNIC DNS</a></td>
+			</tr>
+			<tr>
+				<td>HiNet DNS</td>
+				<td>台湾</td>
+				<td>稳定性高</td>
+				<td><a href="https://doh.hinet.net/dns-query" target="_blank">HiNet DNS</a></td>
+			</tr>
+			<tr>
+				<td>HKBN DNS</td>
+				<td>香港</td>
+				<td>快速、稳定</td>
+				<td><a href="https://doh.hkbn.net/dns-query" target="_blank">HKBN DNS</a></td>
+			</tr>
+
+			<!-- 大专院校DNS服务 -->
+			<tr>
+				<td>斯坦福大学DNS</td>
+				<td>大专院校</td>
+				<td>教育专用DNS</td>
+				<td><a href="https://doh.stanford.edu/dns-query" target="_blank">斯坦福大学</a></td>
+			</tr>
+			<tr>
+				<td>清华大学TUNA DNS</td>
+				<td>大专院校</td>
+				<td>适合中国用户</td>
+				<td><a href="https://doh.tuna.tsinghua.edu.cn/dns-query" target="_blank">清华大学</a></td>
+			</tr>
+			<tr>
+				<td>MIT DNS</td>
+				<td>大专院校</td>
+				<td>教育网络稳定</td>
+				<td><a href="https://doh.mit.edu/dns-query" target="_blank">麻省理工学院</a></td>
+			</tr>
+		</table>
+
+	</body>
+</html>
